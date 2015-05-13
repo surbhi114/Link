@@ -13,7 +13,6 @@
 		<div th:each="course,iterationStatus  : ${courses}" >
 				<div class="panel-body" style="background: #FCFCFC;
     padding: 20px; 
-    width: 800px;
     height: 130px;">
     <div style="float:left; width:150; padding-right: 15px;" >
     <img th:src="${course.course_image_url}" width="90" height="90"></img>
@@ -32,7 +31,7 @@
 						</div>
 						
 					</div>
-					<hr style="margin: 0px;  width: 85%;">
+					<hr style="margin: 0px;">
 				</div>
 			</div>
 	<script src="../static/js/jquery-1.11.3.js"
